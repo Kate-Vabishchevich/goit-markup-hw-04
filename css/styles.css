@@ -190,7 +190,7 @@ body {
 
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36cm;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
@@ -232,9 +232,8 @@ body {
 .features-blocks {
     display: flex;
     gap: 30px;
-    margin-bottom: 30px;
     align-items: center;
-        justify-content: center;
+    justify-content: center;
 }
 
 .features-blocks-item {
@@ -243,12 +242,13 @@ body {
     background-color: var(--btn-second-bgc);
     display: flex;
     align-items: center;
-        justify-content: center;
+    justify-content: center;
 }
 
 .features-list {
     display: flex;
     margin-left: -30px;
+    margin-top: 30px;
 }
 
 .features-item {
